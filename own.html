@@ -1,106 +1,102 @@
 <html>
-<head>
-<link rel="stylesheet" href="own.css">
-</head>
-<body>
-<div id="r">
-<h1> Registration Form</h1>
-<p><span class="error">* required field</span></p>
-<form id="form" action="register.php" method="post">
-<div class="row">
-<div class="col-25">
-<label for="fname">First Name *</label>
-</div>
-<div class="col-75">
-<input type="text" name="firstname" placeholder="Yourname..">
-</div>
-</div>
-<div class="row">
-<div class="col-25">
-<label for="lname">Last Name *</label>
-</div>
-<div class="col-75">
-<input type="text" id="lname" name="lastname" placeholder="Your last name..">
-</div>
-</div>
-<div class="row">
-<div class="col-25">
-<label for="Password">Password *</label>
-</div>
-<div class="col-75">
-<input type="text"  id="Password" name="password" placeholder="Your Password..">
-</div>
-</div>
+	<head>
+		<link rel="stylesheet" href="own.css">
+	</head>
+		<body>
+			<div id="r">
+				<h1> Registration Form</h1>
+				<p><span class="error">* required field</span></p>
+				<form id="form" action="register.php" method="post">	
+					<div class="row">
+						<div class="col-25">
+							<label for="fname">First Name *</label>
+						</div>
+						<div class="col-75">
+						<input type="text" name="firstname" placeholder="Yourname..">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="lname">Last Name *</label>
+						</div>
+						<div class="col-75">
+							<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="Password">Password *</label>
+						</div>
+						<div class="col-75">
+							<input type="text"  id="Password" name="password" placeholder="Your Password..">
+					    </div>
+					</div>
 
-<div class="row">
-<div class="col-25">
-<label for="Password">Confirm Password *</label>
-</div>
-<div class="col-75">
-<input type="text"  id="Confirm_Password" name="Confirm_password" placeholder="Confirm Password..">
-</div>
-</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="Password">Confirm Password *</label>
+						</div>
+						<div class="col-75">
+							<input type="text"  id="Confirm_Password" name="Confirm_password" placeholder="Confirm Password..">
+						</div>
+					</div>
 
-<div class="row">
-<div class="col-25">
-<label for="country">Country</label>
-</div>
-<div class="col-75">
-<select id="country" name="country">
-<option value="india">India</option>
-<option value="canada">Canada</option>
-<option value="usa">USA</option>
-<option value="australia">australia</option>
-</select>
-</div>
-</div>
-<div class="row">
-<div class="col-25">
-<label for="E-mail">E-mail</label>
-</div>
-<div class="col-75">
-<input type="text" id="e-mail" name="e-mail" placeholder="your e-mail id..">
-</div>
-</div>
-<div class="row">
-<div class="col-25">
-<label for="Gender">Gender *</label>
-</div>
-<div class="col-75">
-<input type="radio" name="gender" value="f" id="female"><label for="female">Female</label><br>
-<input type="radio" name="gender" value="m" id="male"><label for="male">Male</label><br>
-<input type="radio" name="gender" value="o" id="other"><label for="other">Other</label><br>
-</div>
-</div>
-<div class="row">
-<input type="submit" value="Submit">
-</div>
-</form>
-</div>
-<div class="login">
-<h2> LOG IN HERE</h2>
-<form action="login.php" method="post">
-<div class="row">
-<div class="col-25">
-<label for="user_name">User Name</label>
-</div>
-<div class="col-75">
-<input type="text" id="user_name" name="user_name" placeholder="user_name">
-</div>
-</div>
-<div class="row">
-<div class="col-25">
-<label for="password">Password</label>
-</div>
-<div class="col-75">
-<input type="text" id="password" name="password" placeholder="password">
-</div>
-</div>
-
-<input type="submit" value="Submit">
-
-
-</div>
-
-</body>
+					<div class="row">
+						<div class="col-25">
+							<label for="country">Country</label>
+						</div>
+						<div class="col-75">
+							<select id="country" name="country">
+							<option value="india">India</option>
+							<option value="canada">Canada</option>
+							<option value="usa">USA</option>
+							<option value="australia">australia</option>
+							</select>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="E-mail">E-mail</label>
+						</div>
+						<div class="col-75">
+							<input type="text" id="e-mail" name="e-mail" placeholder="your e-mail id..">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="Gender">Gender *</label>
+						</div>
+						<div class="col-75">
+							<input type="radio" name="gender" value="f" id="female"><label for="female">Female</label><br>
+							<input type="radio" name="gender" value="m" id="male"><label for="male">Male</label><br>
+							<input type="radio" name="gender" value="o" id="other"><label for="other">Other</label><br>
+						</div>
+					</div>
+					<div class="row">
+						<input type="submit" value="Submit">
+					</div>
+					</form>
+			</div>
+		<div class="login">
+			<h2> LOG IN HERE</h2>
+			<form action="login.php" method="post">
+			<div class="row">
+				<div class="col-25">
+					<label for="user_name">User Name</label>
+				</div>
+				<div class="col-75">
+					<input type="text" id="user_name" name="user_name" placeholder="user_name">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="password">Password</label>
+				</div>
+				<div class="col-75">
+					<input type="text" id="password" name="password" placeholder="password">
+				</div>
+			</div>
+			<input type="submit" value="Submit">
+		</div>
+	</body>
 </html>
